@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\B084897\\Documents\\作業フォルダ\\20251204_リポジトリ構成調査\\②ソリューションがリポジトリの一部\\02_ローカルリポジトリ\\Repository-3\\Code\\MyCoreApp\\MyCoreApp.csproj": {}
+    "C:\\Users\\B084897\\Documents\\作業フォルダ\\20251204_リポジトリ構成調査\\②ソリューションがリポジトリの一部\\02_ローカルリポジトリ\\Repository-4\\Code\\MyCoreApp\\MyCoreApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\B084897\\Documents\\作業フォルダ\\20251204_リポジトリ構成調査\\②ソリューションがリポジトリの一部\\02_ローカルリポジトリ\\Repository-3\\Code\\MyCoreApp\\MyCoreApp.csproj": {
+    "C:\\Users\\B084897\\Documents\\作業フォルダ\\20251204_リポジトリ構成調査\\②ソリューションがリポジトリの一部\\02_ローカルリポジトリ\\Repository-4\\Code\\MyCoreApp\\MyCoreApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\B084897\\Documents\\作業フォルダ\\20251204_リポジトリ構成調査\\②ソリューションがリポジトリの一部\\02_ローカルリポジトリ\\Repository-3\\Code\\MyCoreApp\\MyCoreApp.csproj",
+        "projectUniqueName": "C:\\Users\\B084897\\Documents\\作業フォルダ\\20251204_リポジトリ構成調査\\②ソリューションがリポジトリの一部\\02_ローカルリポジトリ\\Repository-4\\Code\\MyCoreApp\\MyCoreApp.csproj",
         "projectName": "MyCoreApp",
-        "projectPath": "C:\\Users\\B084897\\Documents\\作業フォルダ\\20251204_リポジトリ構成調査\\②ソリューションがリポジトリの一部\\02_ローカルリポジトリ\\Repository-3\\Code\\MyCoreApp\\MyCoreApp.csproj",
+        "projectPath": "C:\\Users\\B084897\\Documents\\作業フォルダ\\20251204_リポジトリ構成調査\\②ソリューションがリポジトリの一部\\02_ローカルリポジトリ\\Repository-4\\Code\\MyCoreApp\\MyCoreApp.csproj",
         "packagesPath": "C:\\Users\\B084897\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\B084897\\Documents\\作業フォルダ\\20251204_リポジトリ構成調査\\②ソリューションがリポジトリの一部\\02_ローカルリポジトリ\\Repository-3\\Code\\MyCoreApp\\obj\\",
+        "outputPath": "C:\\Users\\B084897\\Documents\\作業フォルダ\\20251204_リポジトリ構成調査\\②ソリューションがリポジトリの一部\\02_ローカルリポジトリ\\Repository-4\\Code\\MyCoreApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\B084897\\AppData\\Roaming\\NuGet\\NuGet.Config"
