@@ -1,0 +1,41 @@
+﻿@page
+@model MyCoreApp.Pages.Test.Test001Model
+@{
+    ViewData["Title"] = "TestPage001：HtmlHelper";
+}
+<h1>@ViewData["Title"]</h1>
+
+<div class="form-group">
+    @Html.DisplayName("テキストボックス")
+    @Html.TextBoxFor(model => model.TextBox, new { @class = "form-control" })
+</div>
+<div class="form-group">
+    @Html.DisplayName("チェックボックス")
+    @Html.CheckBoxFor(model => model.CheckBox, new { @class = "form-check-input" })
+</div>
+<div class="form-group">
+    <div class="form-group">
+        @Html.DisplayName("ラジオボタン")
+    </div>
+    <label class="form-check-label" for="lbl-category">
+        @Html.RadioButtonFor(model => model.RadioButton, RadioButton.選択肢１, new { @class = "form-check-input" })
+        @Html.DisplayName(RadioButton.選択肢１.ToString())
+    </label>
+    <label class="form-check-label" for="lbl-category">
+        @Html.RadioButtonFor(model => model.RadioButton, RadioButton.選択肢２, new { @class = "form-check-input" })
+        @Html.DisplayName(RadioButton.選択肢２.ToString())
+    </label>
+    <label class="form-check-label" for="lbl-category">
+        @Html.RadioButtonFor(model => model.RadioButton, RadioButton.選択肢３, new { @class = "form-check-input" })
+        @Html.DisplayName(RadioButton.選択肢３.ToString())
+    </label>
+</div>
+<div class="form-group">
+    @Html.DisplayName("セレクトボックス")
+    @Html.DropDownListFor(model => model.SelectBox, new SelectList(Enum.GetValues(typeof(SelectBox))), new { @class = "form-control" })
+</div>
+<div class="form-group">
+    @Html.DisplayName("テキストエリア")
+    @Html.TextAreaFor(model => model.TextArea, new { @class = "form-control", rows = 3 })
+</div>
+<a asp-area="" asp-page="/Test">メニューに戻る</a>
